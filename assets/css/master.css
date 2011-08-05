@@ -1,5 +1,4 @@
 body {
-  background: #fff;
   background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#C8C8C8), color-stop(0.47, white), to(#C8C8C8));
   margin: 0;
   font: 18px Helvetica;
@@ -7,20 +6,15 @@ body {
 }
 
 #title_bar {
-  /* need a position set to something for z-index to take effect */
+  background:  url('../img/header-black2.gif') repeat scroll 0 0 transparent;
   position: relative;
   z-index: 1;
-  background: #ccc;
-  background: -webkit-gradient(linear, 0 0, 0 70%, from(#fff), to(#ccc));
-  background: linear-gradient(#fff, #ccc 70%);
-  color: #444;
-  text-shadow: 0 1px 0 #fff;
-  border-bottom: 1px solid #999;
-  height: 44px;
+  color: #999;
+  /*text-shadow: 0 1px 0 #fff;*/
+  /*border-bottom: 1px solid #999;*/
+  height: 130px;
   line-height: 44px;
   padding: 0;
-  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
-  box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
 
 .app_button, button {
@@ -30,12 +24,12 @@ body {
   padding: 0 20px;
   margin-bottom: 20px;
   cursor: pointer;
-  width: 200px;
+  width: 220px;
   background:#F7941E;
   background: -webkit-gradient(linear, 0 0, 0 70%, from(#F7941E), to(#D37F18));
   background: linear-gradient(#F7941E, #D37F18 70%);
   border: 1px solid #C97917;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 200;
   text-shadow: 0 -1px 0 #7E4B0D;
   height: 40px;

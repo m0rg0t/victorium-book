@@ -2,11 +2,15 @@
 <html>
 	<head>
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
-		<title>Training App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Victorium book</title>
 		<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
-		
+        <link rel="stylesheet" href="assets/css/jquery.mobile.min.css" type="text/css" media="screen" />
+		<script src="assets/js/jquery.mobile.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
-		
+        
+        <script src="assets/js/jquery.mobile.min.js" type="text/javascript" charset="utf-8"></script>
+        		
 		<script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
 		
 		<script src="assets/js/lawnchair/adaptors/LawnchairAdaptorHelpers.js" type="text/javascript" charset="utf-8"></script>
@@ -23,41 +27,85 @@
 		
 	</head>
 	<body>
- 		<div id="title_bar">Phone<strong>Gap</strong> Training App</div>
+        
+        <div data-role="page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center>
+                        <img id="logo" src="assets/img/site_logo.png"/><br />
+                        Основные парвила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+            
+            <ul data-dividertheme="b" data-theme="a" data-inset="true" data-role="listview" class="ui-listview ui-listview-inset ui-corner-all ui-shadow" role="listbox">
+                <li data-role="list-divider" role="heading" tabindex="0" class="ui-li ui-li-divider ui-btn ui-bar-b ui-corner-top ui-btn-up-undefined">Разделы</li>
+            
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Вводная часть</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Цель игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Формат игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Расстановка ландшафта</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>  
+                       
+                <li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Элементы "Викториум"</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Очередность ходов</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Расстановка персонажей</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Игровые персонажи</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>   
+                             
+                <li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Очки жизнедействия</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Ход игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Движение</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Способности</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li> 
+                               
+                <li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Категории способностей</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Настройки</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                
+            	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
+                <div class="ui-btn-inner"><div class="ui-btn-text">
+                <a class="ui-link-inherit" href="#">Благодарности</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>                                
+            </ul> 
 
-		<div id="welcome" class="view">
-		  <div class="app_button" id="map_button">Show My Location</div>
-  	      <div class="app_button" id="settings_button">Settings</div>
-		</div>
-
-		<div id="map" class="view">
-		  <div class="map_image">
-              <img id="static_map" src="assets/img/staticmap.png">
-		  </div>
-		  <p>This is where you are</p>
-		  <div class="app_button" id="welcome_button">Go Back</div>
-		</div>
-
-		<div id="settings" class="view">
-		  <form id="settings_form">
-		    <fieldset>
-		      <legend>Map Type</legend>
-			  <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
-		      <input type="radio" name="map" value="satellite">Satellite<br/>
-		      <input type="radio" name="map" value="terrain">Terrain<br/>
-		      <input type="radio" name="map" value="hybrid">Hybrid<br/>
-		    </fieldset>
-		    <fieldset>
-		      <legend>Zoom Level</legend>
-  		      <input type="radio" name="zoom" value="10">Super Far<br/>
-  		      <input type="radio" name="zoom" value="12">Far<br/>
-  		      <input type="radio" name="zoom" value="15" checked>Normal<br/>
-  		      <input type="radio" name="zoom" value="18">Close<br/>
-  		      <input type="radio" name="zoom" value="20">Super Close<br/>
-  		     </fieldset>
-		      <button id="save_button">Save</button>
-	      </form>
-		</div>
+            </div> 
+	        <div data-role="footer">
+            </div> 
+        </div>	
 
 	</body>
 </html>

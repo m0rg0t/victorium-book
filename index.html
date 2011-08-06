@@ -8,8 +8,9 @@
         <link rel="stylesheet" href="assets/css/jquery.mobile.min.css" type="text/css" media="screen" />
 		<script src="assets/js/jquery.mobile.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
-        
+        <script src="assets/js/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="assets/js/jquery.mobile.min.js" type="text/javascript" charset="utf-8"></script>
+        
         		
 		<script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
 		
@@ -25,69 +26,79 @@
 		
 		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
 		
+		<style type="text/css">
+		.auto-style1 {
+			text-align: left;
+		}
+		.auto-style2 {
+			text-align: center;
+		}
+		</style>
+		
 	</head>
 	<body>
         
-        <div data-role="page"> 
+        <div data-role="page" id="main_page" data-theme="b"> 
 	        <div data-role="header">
                     <div id="title_bar">
                         <center>
-                        <img id="logo" src="assets/img/site_logo.png"/><br />
+                        <a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
                         Основные парвила и приложения</center>
                     </div>
                 </div> 
-	        <div data-role="content">
+	        <div data-role="content" style="padding: 5px;">
             
             <ul data-dividertheme="b" data-theme="a" data-inset="true" data-role="listview" class="ui-listview ui-listview-inset ui-corner-all ui-shadow" role="listbox">
                 <li data-role="list-divider" role="heading" tabindex="0" class="ui-li ui-li-divider ui-btn ui-bar-b ui-corner-top ui-btn-up-undefined">Разделы</li>
             
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="start.html">Вводная часть</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#start_page">Вводная часть</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Цель игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#target_page">Цель игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Формат игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#format_game_page">Формат игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Расстановка ландшафта</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>  
+                <a class="ui-link-inherit" href="#land_page">Расстановка ландшафта</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>  
                        
                 <li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Элементы "Викториум"</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#elements_page">Элементы "Викториум"</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Очередность ходов</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#turns_page">Очередность ходов</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Расстановка персонажей</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#rast_page">Расстановка персонажей</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Игровые персонажи</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>   
+                <a class="ui-link-inherit" href="#persons_page">Игровые персонажи</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>   
                              
                 <li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Очки жизнедействия</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#lifepoints_page">Очки жизнедействия</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Ход игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#gamethreat_page">Ход игры</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Движение</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
+                <a class="ui-link-inherit" href="#move_page">Движение</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="#">Способности</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li> 
+                <a class="ui-link-inherit" href="#abilities_page">Способности</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li> 
                                
                 <li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
@@ -99,13 +110,715 @@
                 
             	<li role="option" tabindex="-1" data-theme="a" class="ui-btn ui-btn-icon-right ui-li ui-btn-up-c">
                 <div class="ui-btn-inner"><div class="ui-btn-text">
-                <a class="ui-link-inherit" href="thanks.html">Благодарности</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>                                
+                <a class="ui-link-inherit" href="#thanks_page">Благодарности</a></div><span class="ui-icon ui-icon-arrow-r"></span></div></li>                                
             </ul> 
 
             </div> 
 	        <div data-role="footer">
             </div> 
         </div>	
+        
+        <div data-role="page" id="target_page" data-theme="b"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center><a href="#main_page">
+                        <img id="logo" border="0" href="#main_page" src="assets/img/site_logo.png"/></a><br />
+                        Основные парвила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content" style="padding: 5px;">
+	        	<h3>Цель игры</h3>
+	        	<p class="auto-style1">Уничтожение всех вражеских персонажей, капитуляция противника 
+или выполнение игрового задания.</p>	
+				<p class="auto-style1"><em>На самом деле цель игры – доставить игрокам удовольствие. Поэтому, 
+если в игре возникли какие-нибудь споры, вызванные ситуацией, не 
+предусмотренной настоящими правилами или позволяющая толковать 
+их двояко – решите их, как и подобает Леди и Джентльменам 
+викторианской эпохи – дуэлью на кубиках. Ведь удовольствие, полученное 
+обоими игроками весомее, чем победа любой ценой.</em></p>
+            </div> 
+	        <div data-role="footer">
+            </div> 
+        </div>
+        
+        <div data-role="page" id="thanks_page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center>
+                        <img id="logo" src="assets/img/site_logo.png"/><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+<p class="auto-style1">
+            	<strong>Руководитель проекта:</strong> Олег Казачков «pzo»</p>
+				<p class="auto-style1">
+            	<strong>Производственный 
+				директор:</strong> Александр Дерябин «Zippo», Скульптор, автор большой 
+				части <br>линейки миниатюр, один из авторов и основателей 
+				проекта</p>
+				<p class="auto-style1">
+            	<strong>Арт-директор:</strong> Михаил Суворов «Mixiw», дизайнер, автор 
+				дизайнерских решений проекта</p>
+				<p class="auto-style1">
+            	<strong>Pr – директор:</strong> Александра 
+				Ковалёва «Aurora», журналист, главное контактное лицо проекта<br>
+				<strong>Эксперт:</strong> Александр Усвицкий «Korand», разработка игровой и 
+				турнирной систем, разработка и <br>внедрение отдельных аспектов 
+				проекта</p>
+				<p class="auto-style1">
+            	<strong>Советник по юридическим вопросам:</strong> «Mgrishin» 
+				Максимилиан Гришин, главный юрист проекта</p>
+				<p class="auto-style1">
+            	<strong>Художники и 
+				дизайнеры: </strong></p>
+				<p class="auto-style1">
+            	Суворов Михаил «Mixiw», дизайн, верстка, 
+				иллюстрации</p>
+				<p class="auto-style1">
+            	Андрей Кротков «Goodwin», художник по миниатюре, 
+				автор потрясающего презентационного <br>стола для проекта</p>
+				<p class="auto-style1">
+				Дмитрий Фесечко «Lynx», художник по миниатюре, автор покраски 
+				всех миниатюр проекта, <br>и иллюстраций для книги игрока</p>
+				<p class="auto-style1">
+				Вячеслав Базлов «VirusVinci», привлечённый художник, концепты 
+				персонажей и иллюстрации</p>
+				<p class="auto-style1">
+            	<strong>IT:</strong></p>
+				<p class="auto-style1">
+            	Станислав Игнатьев «Колдун 
+				Игнат», администратор сайта, автор сайта проекта</p>
+				<p class="auto-style1">
+            	<strong>PR:</strong></p>
+				<p class="auto-style1">
+				Александра Ковалёва «Aurora», PR-директор</p>
+				<p class="auto-style1">
+            	Александр Елаев 
+				«Rottur», копирайтер, автор текстов для блога и сайта, 
+				художественных <br>вставок для книги игрока</p>
+				<p class="auto-style1">
+            	Дарья Пуршева 
+				«Pursh», контент-менеджер, продвижение и поддержка проекта в 
+				сети, <br>редактура</p>
+				<p class="auto-style1">
+            	<strong>Игровая механика:</strong></p>
+				<p class="auto-style1">
+            	Александр Усвицкий 
+				«Korand», эксперт, обработка игровых правил, разработка и 
+				внедрение <br>отдельных элементов игровой системы</p>
+				<p class="auto-style1">
+            	Александр 
+				Кубраков «Yuh», ведущий игровой технолог, разработка рабочей 
+				модели правил <br>для игровой системы</p>
+				<p class="auto-style1">
+            	<strong>Скульпторы: </strong></p>
+				<p class="auto-style1">
+				Александр Дерябин «Zippo», скульптор</p>
+				<p class="auto-style1">
+            	Сергей Бондар «Anastas», 
+				привлечённый скульптор, автор большей части миниатюр проекта</p>
+				<p class="auto-style1">
+				Элла Мазуренко «Ellis», привлечённый скульптор, автор миниатюр 
+				для Victorium’a</p>
+				<p class="auto-style1">
+            	Дмитрий Иванов «Dmitry», привлечённый 
+				скульптор, автор миниатюр для Victorium’a</p>
+				<p class="auto-style1">
+            	Равиль Кулахметов 
+				«Ромыч», автор и разработчик моделей техники для проекта</p>
+				<p class="auto-style1">
+            	<strong>Художественные истории:</strong></p>
+				<p class="auto-style1">
+            	Виктор Смирнов «SimpleGags», ведущий автор художественного 
+				оформления проекта, авто<br>большей части художественных 
+				описаний персонажей, истории мира</p>
+				<p class="auto-style1">
+            	Кирилл Мелёхин «Rarog», автор художественного оформления 
+				проекта, автор историй <br>персонажей</p>
+				<p class="auto-style1">
+            	Евгений Казимиров «Nicklaus», автор историй персонажей</p>
+				<p class="auto-style1">
+            	<strong>Мы благодарим наших партнеров:</strong></p>
+				<p class="auto-style1">
+            	<strong>Портал – мастерскую Craft-Online </strong> <br><a href="http://craft-online.ru">
+				craft-online.ru </a><br>В лице создателя сайта — Романа 
+				Пасечника <br>Место где зародилась 
+				сама идея нашего проекта, форум мастеров своего дела.<br>Роман 
+				всячески поддерживал и помогал развитию нашего проекта на самых 
+				ранних стадиях.</p>
+				<p class="auto-style1">
+            	<strong>Игровой клуб “Портал” </strong><br>В лице — Филиппа 
+				Ларина и Сергея Ляпенкова <br>Первый официальный клуб – партнёр. 
+				Благодарим за проведение тест-турниров, и будущих <br>турниров 
+				проекта.</p>
+				<p class="auto-style1">
+            	<strong>Портал Steampunker.ru </strong><br>
+				<a href="http://www.steampunker.ru">www.steampunker.ru </a><br>В 
+				лице руководителя проекта — Петра Дидевича <br>Крупнейший сайт 
+				стимпанк-сообщества, на котором мы демонстрировали развитие 
+				нашего <br>проекта. Благодарим за поддержку и дружественные 
+				отношения с крупнейшим стимпанк-<br>сообществом в рунете.</p>
+				<p class="auto-style1">
+            	<strong>Портал Warforge </strong><br>
+				<a href="http://www.warforge.ru">www.warforge.ru </a><br>В лице 
+				— Павла Крутова «Zef» <br>Крупнейший портал по варгеймам и не 
+				только, в России. Благодарим за создание отдельного <br>раздела 
+				для нашего проекта, за поддержку и дружественное отношение.</p>
+				<p class="auto-style1">
+            	<strong>Сайт <a href="http://steamroller.ru">steamroller.ru</a></strong><br>
+				За создание темы для нашего проекта, за поддержку</p>
+				<p class="auto-style1">
+            	<strong>Сайт <a href="http://www.waaagh.ru">www.waaagh.ru </a>
+				</strong><br>За создание темы для нашего проекта, за поддержку</p>
+				<p class="auto-style1">
+            	<strong>Литейную мастерскую </strong><br>В лице мастер-литейщика 
+				— Сергея «NikS» Никитина <br>Благодарим за прекрасное литьё 
+				пилотных выпусков миниатюр проекта</p>
+				<p class="auto-style1">
+            	<strong>Литейную мастерскую </strong><br>В лице мастер-литейщика 
+				— Дмитрия «Parasit_99».<br>Благодарим за прекрасное литьё 
+				миниатюр проекта</p>
+				<p class="auto-style1">
+            	<strong>Портал Podgames </strong><br>
+				<a href="http://www.podgames.ru">www.podgames.ru </a><br>В лице 
+				руководителя портала — Александра «Krutomen» Седых. <br>За 
+				поддержку и рекламу нашего проекта, а так же благодарим 
+				журналистов: Ивана «KOT_ЭЭЭЭ» <br>и Валеру Акимова.</p>
+				<p class="auto-style1">
+            	<strong>А так же благодарим всех участников тест – турниров:</strong></p>
+				<p class="auto-style1">
+            	Korand, Hella, Альбина, Adrammelez, Ромыч, Лилия, Lynx, Skarm, 
+				Csame, Havkai, Anastas, Goodwin, <br>Dragon, PhillipRus, Ookami, 
+				Sigvat. </p>
+				<p class="auto-style1">
+            	И просто всех сочувствующих, всех кто принимал участие в 
+				разработке, предлагал идеи, участвовал в обсуждениях, благодаря 
+				вам мы смогли реализовать и создать столь качественный продукт! 
+				Спасибо вам!</p>
+			</div> 
+	        <div data-role="footer" class="auto-style1">
+            </div> 
+        </div>
+        
+          <div data-role="page" id="start_page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+<h3>
+            	Вводная часть</h3>
+				<p class="auto-style1">
+            	В XIX веке человечество совершило технологический скачок.</p>
+				<p class="auto-style1">
+            	Революция в науке шла по двум направлениям - техническому и 
+				генетическому. Люди научились приручать силы природы, но слишком 
+				увлеклись. Не всем удалось все остаться людьми. </p>
+				<p class="auto-style1">
+            	Еще в середине 50-х годов тибетские монахи за тенами своих 
+				неприступных монастырей проводили страшные опыты, пытаясь 
+				скрестить людей и животных, экспериментируя с живой и неживой
+				плотью. В феврале 1882 года Николас Теззло впервые 
+				использовал в электродвигателе вращающееся магнитное поле.</p>
+				<p class="auto-style1">
+            	В 1895 году в трущобах Парижа впервые схлестнулись нелюди.. и 
+				те, кто ещё был человеком. Начался отсчет эпохи «Викториума».
+				Нового века человечества. </p>
+				<p class="auto-style1">
+            	Темного или светлого? <br>Решать Вам. <br>Сыграем? </p>
+				<p class="auto-style1">
+            	«Викториум» - настольная военно-тактическая игра для 2 и более 
+				игроков.</p>
+				<p class="auto-style1">
+            	Действие игры происходит в альтернативно существующей и развивающейся параллельно нашей Вселенной, в которой так же
+				существует планета Земля, на момент действия игры находящаяся в
+				определенном временном периоде, в конце 19 века. Ее историческое и технологическое развитие пошло не так, как в 
+				нашем мире и поэтому при всех знакомых нам континетах, 
+				странах и расах населяют эту реальность зачастую вовсе 
+				чуждые и необыкновенные для нас персонажи. </p>
+				<p class="auto-style1">
+            	Каждая отдельная игра «Викториума» - это не глобальная битва с 
+				участием сотен бойцов, а локальная схватка нескольких 
+				персонажей, каждый из которых имеет свою уникальную историю и 
+				набор способностей.</p>
+				<p class="auto-style1">
+            	Историю не всегда пишут полководцы…</p>
+			</div> 
+        </div>	
+        
+        <div data-role="page" id="format_game_page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>
+            	Формат Игры</h3>
+				<p class="auto-style1">
+            	Для того, что бы начать играть, нужно определиться с балансом 
+				враждующих команд. Для удобства игроков мы ввели текущую 
+				стоимость каждого из персонажей, которая указана в игровом 
+				приложении “Стоимость персонажей”. В начале игры игроки 
+				определяются с суммой очков, которую каждый из них может 
+				потратить на сбор и комплектацию отряда. Эта сумма впредь будет 
+				называться форматом игры. </p>
+				<p class="auto-style1">
+            	В каждый отряд можно набрать только по одному экземпляру каждого 
+				персонажа.</p>
+			</div>
+        </div>
+        
+        <div data-role="page" id="land_page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Расстановка ландшафта</h3>
+				<p class="auto-style1">
+            	Игра  происходит  на  участке  ровной  поверхности  (обычно  столе). 
+Основным параметром является расстояние между зонами расста  новки 
+(начальной позиции персонажа). Это расстояние должно быть больше 
+(или равным) 50 см. Рекомендуемым размером стола является 90*120 
+сантиметров,  при  этом  между  игроками  и  их  зонами  расстановки 
+находится длинный участок поля. (см.рис. 1)</p>
+				<p class="auto-style2">
+            	<img alt="рис1" height="435" src="assets/img/pic1.jpg" width="290"></p>
+				<p class="auto-style1">
+            	Расстановка  ландшафта  на  поле  боя  осуществляется  игроками  в 
+порядке,  определенном  броском  кубика  d20.  Элементы  ландшафта 
+расставляются по договоренности игроков либо симметрично, тогда на 
+поле боя выставляется сразу по два элемента ландшафта симметрично 
+относительно  средней  линии  поля  боя,  либо  асимметрично,  тогда 
+игроки выставляют по одному элементу в любой точке поля независимо 
+друг от друга. Заметьте, что некоторые элементы ландшафта требуют 
+использования  специальных  правил  (эти  правила  описаны  в 
+приложении “Специальная местность”).</p>
+			</div>
+        </div>
+
+        <div data-role="page" id="elements_page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Элементы для игры в «Викториум»</h3>
+				<p class="auto-style1">
+            	Кроме  элементов  ландшафта,  вам  понадобятся миниатюры,  правила 
+и  прочее.  Эти  необходимые  элементы  игры  описаны  в  приложении 
+“Игровые элементы”. Также в нем вы найдете способы применения и 
+иллюстрации. В основных правилах вы можете встретить ссылку на тот 
+или иной элемент из приложения. </p>
+			</div>
+        </div>
+
+        <div data-role="page" id="turns_page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Очередность ходов</h3>
+				<p class="auto-style1">
+            	Итак, каждый игрок набирает себе необходимое количество 
+персонажей, но суммарная стоимость персонажей не должна 
+превышать формата игры..</p>
+				<p class="auto-style1">
+            	Далее требуется составить линейку очередности ходов. Для этой 
+цели игроки бросают по одному кубику d20. Игрок, выбросивший 
+наибольшее число на кубике, выставляет в линейку очередности 
+своего персонажа, который будет ходить первым. Следом за ним 
+второй игрок выставляет своего персонажа. Эта пара действий 
+повторяется до тех пор, пока не определится очередь ходов для всех 
+персонажей, участвующих в схватке.</p>
+				<p class="auto-style1">
+            	Линейка персонажей отображается последовательностью 
+специальных карточек персонажей. Использование этих карточек 
+описано в приложении “Игровые элементы”- В6.</p>
+				<p class="auto-style1">
+				В случае если у игроков различное количество персонажей, то игрок 
+				с меньшим количеством бойцов может пропустить свою очередь в 
+				линейке очередности и не выставлять своего бойца. В этом случае 
+				следующим своего персонажа выставляет другой игрок. Количество 
+				пропусков в линейке должно быть равно разности количеств персонажей 
+				у игроков.</p>
+			</div>
+        </div>
+        
+        <div data-role="page" id="rast_page"> 
+	        <div data-role="header">
+                    <div id="title_bar" style="left: 0px; top: 0px">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Расстановка персонажей</h3>
+				<p class="auto-style1">
+            	Вы с вашим оппонентом по очереди (определяемой линейкой 
+				очередности) выставляете на противоположных концах игрового 
+				поля в 10см зоне от края поля ваших персонажей, по одному. (зона 
+				расстановки должна быть уменьшена, если между зонами менее, чем 
+				50см) (см. рис.2) </p>
+				<p class="auto-style2">
+            	<img alt="рис2" src="assets/img/pic2.jpg" width="290"></p>
+				<p class="auto-style1">
+            	Прежде чем переходить к самой игре, давайте определимся с 
+игровыми персонажами и их основной характеристикой.</p>
+			</div>
+        </div>
+
+        <div data-role="page" id="persons_page"> 
+	        <div data-role="header">
+                    <div id="title_bar">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Игровые персонажи</h3>
+				<p class="auto-style1">
+            	Любые  свойства и особенности каждого игрового персонажа указаны 
+в  его  описании.  Игровым  персонажем  является  любая  действующая 
+миниатюра (будь то танк или змея).</p>
+				<p class="auto-style1">
+            	Описание каждого персонажа состоит из следующих частей:
+</p>
+				<p class="auto-style1">
+            	<strong>Имя
+</strong></p>
+				<p class="auto-style1">
+            	<strong>Регион
+</strong></p>
+				<p class="auto-style1">
+            	Часть  света,  определяющая  внешний  вид  миниатюры  бойца,  называется регионом. Таких регионов всего три: «Русская Империя» (“РИ”), 
+«Коалиция Европейских стран» (“ЕС”), «Азиатский Альянс» (“АА”).</p>
+				<p class="auto-style1">
+            	<strong>Класс</strong></p>
+				<p class="auto-style1">
+            	Все персонажи делятся на пять классов: </p>
+				<p class="auto-style1">
+            	Человек</p>
+				<p class="auto-style1">
+            	<em>Обычный человек, не подвергавший свое тело никаким 
+				механическим или биохимическим модификациям.</em></p>
+				<p class="auto-style1">
+            	Механизм </p>
+				<p class="auto-style1">
+            	<em>Механическое существо, созданное человеком или другим 
+				механизмом, на 100% состоящее из неодушевленной материи.</em></p>
+				<p class="auto-style1">
+            	Механоид </p>
+				<p class="auto-style1">
+            	<em>Человек, подвергший свое тело модификациям с помощью 
+				механических элементов, либо механизм, включивший в свою 
+				структуру живую материю.</em></p>
+				<p class="auto-style1">
+            	Геном </p>
+				<p class="auto-style1">
+            	<em>Генетически созданное на основе животных или растений 
+				существо. На 100% состоит из живой материи</em></p>
+				<p class="auto-style1">
+            	Трансген </p>
+				<p class="auto-style1">
+            	<em>Человек, подвергшийся генетическим либо биохимическим 
+				модификациям, либо геном, в котором преобладает человеческий 
+				материал.</em></p>
+				<p class="auto-style1">
+            	<strong>Основное оружие</strong></p>
+				<p class="auto-style1">
+            	Каждый персонаж использует одно или более оружие. Использование 
+				револьверов и винтовок требует отдельных правил, которые описаны 
+				в разделе “Стрелковое оружие”. Остальные типы оружия никак не 
+				влияют на игру и не имеют специальных правил, если обратное не 
+				описано в какой-то способности.</p>
+				<p class="auto-style1">
+            	<strong>Способности</strong></p>
+				<p class="auto-style1">
+            	Способность - умение персонажа, которое применяется во время 
+				игры. Заметьте, что в “Викториуме” правильность использования 
+				уникальных способностей является основной частью игры. Описание 
+				способностей и их классификации описаны далее в разделе 
+				“Способности”.</p>
+				<p class="auto-style1">
+            	<em>Описание персонажа, изложенное выше, определяет способ его 
+				применения, однако состояние определяется основной 
+				характеристикой персонажей в “Викториуме”- “Очками 
+				жизнедействия”.</em></p>
+			</div>
+        </div>
+        
+        <div data-role="page" id="lifepoins_page"> 
+	        <div data-role="header">
+                    <div id="title_bar" style="left: 0px; top: 0px">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Очки жизнедействия</h3>
+				<p class="auto-style1">
+            	ОЖ,  или  очки  жизнедействия  –  самая  важная  характеристика  персонажа. Расходуя свои ОЖ, персонаж может передвигаться и применять 
+способности.  По  определению, у  любого  персонажа  максимальное количество  (уровень) ОЖ равно 40. Если  уровень ОЖ персонажа достигает 0, то персонаж выбывает из боя  (гибнет). Этот персонаж убирается из линейки очередности ходов, а его миниатюра покидает поле боя. Заметьте, что в некоторых случаях важно отметить место гибели персонажа.  При  любом  возвращении  персонажа  в  бой  (например, воскрешение),  его  очередь  наступает  там  же,  где  была  определена изначально.</p>
+				<p class="auto-style1">
+            	Прежде чем переходить к самой игре, давайте определимся с 
+игровыми персонажами и их основной характеристикой.</p>
+			</div>
+        </div>
+        
+        <div data-role="page" id="gamethreat_page"> 
+	        <div data-role="header">
+                    <div id="title_bar" style="left: 0px; top: 0px">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Ход игры</h3>
+				<p class="auto-style1">
+            	После расстановки начинается самое интересное: Битва!
+Последовательность наступления ходов персонажей определяется 
+линейкой очередности. После последнего персонажа в линейке наступает ход первого персонажа в линейке.</p>
+				<p class="auto-style1">
+            	<strong>Ход персонажа</strong></p>
+				<p class="auto-style1">
+            	Ход  персонажа  –  период  времени  с  момента,  когда  было  объявлено 
+окончание  хода  предыдущего  персонажа  и  до  момента,  когда  игрок 
+объявит об окончании своего хода.</p>
+				<p class="auto-style1">
+            	<strong>Алгоритм хода персонажа</strong></p>
+				<ol>
+					<li>
+					<p class="auto-style1">Начало хода персонажа</p>
+					</li>
+					<li>
+					<p class="auto-style1">Уровень ОЖ персонажа становится 
+					равным текущему максимальному значению (этот процесс также 
+					называется восполнением ОЖ).</p>
+					</li>
+					<li>
+					<p class="auto-style1">Определяется количество ОЖ, которое 
+					персонаж может израсходовать в свой ход. Это количество ОЖ 
+					называется количеством активных ОЖ. Игрок бросает два кубика 
+					D20 (двадцатигранных). Сумма выпавших значений на кубиках и 
+					есть количеством активных ОЖ.</p>
+					</li>
+					<li>
+					<p class="auto-style1">Использование активных ОЖ на 
+					способности или движение. Эти два вида действий требуют 
+					расходование активных ОЖ, при этом затраченное количество ОЖ 
+					вычитается из текущего уровня ОЖ персонажа. <br><br>Движение 
+					и применение способностей персонажем могут чередоваться в 
+					произвольном порядке, пока не закончатся все активные ОЖ, 
+					либо пока игрок не заявит об окончании хода. Любое действие 
+					персонажа, которое уменьшает текущий уровень ОЖ до 
+					отрицательного значения, не может быть применено.<br><br>
+					Способности и движение персонажа описаны в соответствующих 
+					разделах: “Способности” и “Движение”.</p>
+					</li>
+					<li>
+					<p class="auto-style1">Окончание хода. Игрок объявляет о 
+					завершении своего хода.</p>
+					</li>
+				</ol>
+				<p class="auto-style1"><strong>Пример:</strong></p>
+				<p class="auto-style1"><em>Начинается ход персонажа А, и у него 
+				текущее значение ОЖ становится равно 40, даже если до этого оно 
+				было меньше. После чего определяется количество активных ОЖ 
+				(кидается два кубика). Допустим, что выпадает сумма в 25 ОЖ. 
+				После использования нескольких способностей и передвижения, на 
+				которые было потрачено 20 ОЖ, у него остается еще 20 ОЖ 
+				(40-20=20), из которых он может потратить еще 5 (25-20=5). В 
+				данном примере персонаж не может использовать способность, 
+				требующую 6 ОЖ- у него нет столько активных ОЖ. Однако он может 
+				потратить 5 ОЖ на движение, но при этом у него останется 15 ОЖ 
+				(20-5), из которых уже ничего не потратить- нужно заканчивать 
+				ход. Заметьте, что персонаж останется с 15 ОЖ на целый раунд (до 
+				следующего восполнения), а значит его будет достаточно легко 
+				убить. В «Викториуме» очень важно с умом расходовать ОЖ, потому 
+				что его количество определяет живучесть вашего персонажа.</em></p>
+				<p class="auto-style1"><strong>Раунд </strong>– совокупность 
+				ходов всех действующих персонажей. </p>
+				<p class="auto-style1">Раунд начинается с началом хода персонажа 
+				и заканчивается с началом его же хода, когда все остальные 
+				персонажи сделают по одному ходу. Линейка очередности по сути 
+				иллюстрирует раунд для первого персонажа в линейке.</p>
+			</div>
+        </div>
+
+        <div data-role="page" id="move_page"> 
+	        <div data-role="header">
+                    <div id="title_bar" style="left: 0px; top: 0px">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Движение</h3>
+				<p class="auto-style1">
+            	Передвигаться по полю боя могут все персонажи, если в их 
+				описании не указано обратного или на них не оказывает действие 
+				эффект какой-либо способности, ограничивающей передвижение 
+				персонажа.</p>
+				<p class="auto-style1">
+            	1 шаг персонажа по умолчанию равен одному сантиметру. Персонаж 
+				может двигаться по любой траектории, выбранной игроком, 
+				поднимаясь и спускаясь по лестницам и холмам, если угол 
+				подъема/спуска не больше 45 градусов.</p>
+				<p class="auto-style1">
+            	В случае, если угол больше и составляет 45-90 градусов, то 
+				персонаж может подняться или спуститься, затрачивая для этого 2 
+				ОЖ на 1 см подъема. В дальнейшем такой спуск/подъем будет 
+				называться преодоление пре пятствия, не зависимо от того, 
+				спускается персонаж или поднимается.</p>
+				<p class="auto-style1">
+            	Если угол подъема больше 90 градусов (верхний край препятствия 
+				нависает над персонажем), то подъем не возможен.</p>
+				<p class="auto-style1">
+            	Возможность забраться на препятствие также определяется 
+				характером самого препятствия: персонаж не может забраться на 
+				кирпичную или любую другую гладкую стену, если она в 2 или более 
+				раз выше персонажа. При передвижении по лестницам количество 
+				затрачиваемых на передвижение ОЖ составляет 1 ОЖ на 1см 
+				лестницы.</p>
+				<p class="auto-style1">
+            	Персонаж в свой ход должен полностью залезть на препятствие, а 
+				если препятствие не имеет наверху площадки для установки 
+				персонажа, то и спуститься с него. Исключением из правила 
+				являются лестницы – персонаж может закончить ход на ступенях. 
+				Если на ступенях установить персонажа невозможно, то он 
+				устанавливается в любой близлежащей точке. Все измерения с 
+				участием данного бойца, а так же проверка видимости проводится с 
+				учетом того, что фактическое игровое положение персонажа 
+				остается на лестнице.</p>
+				<p class="auto-style1">
+            	Также персонаж может в любой момент хода выполнить поворот на 
+				месте. При этом центр подставки не должен смещаться. На поворот 
+				не тратятся ОЖ, и поворот не считается движением персонажа. Если 
+				персонаж находится вплотную с другими персонажами, то в 
+				окончательном положении после поворота контакт подставками не 
+				должен исчезать.</p>
+				</div>
+        </div>
+        
+        <div data-role="page" id="abilities_page"> 
+	        <div data-role="header">
+                    <div id="title_bar" style="left: 0px; top: 0px">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Способности</h3>
+				<p class="auto-style1">
+            	Способность - умение персонажа, которое применяется во время игры.
+Все способности персонажа указаны в его описании*. Описание 
+способности состоит из следующих частей:</p>
+				<p class="auto-style1">
+            	<strong>Название способности</strong></p>
+				<p class="auto-style1">
+            	<strong>Художественный комментарий к способности</strong></p>
+				<p class="auto-style1">
+            	Эта часть не влияет на игру, и должна быть проигнорирована в 
+				случае использования способности.</p>
+				<p class="auto-style1">
+            	<strong>Описание способности</strong></p>
+				<p class="auto-style1">
+            	Эта часть указывает принцип ее применения и действия.</p>
+				<p class="auto-style1">
+            	<strong>Категория способности</strong></p>
+				<p class="auto-style1">
+            	Категория способности определяет условия ее применения, а также 
+				частоту применения. Подробнее категории описаны в разделе 
+				“Категории способностей”.</p>
+				<p class="auto-style1">
+            	<strong>Параметры способности</strong></p>
+				<p class="auto-style1">
+            	Параметры способности используются во время ее применения. 
+				Заметьте, что набор параметров способностей различается. 
+				Например, параметром является количество ОЖ, требуемое на 
+				использование способности. Подробнее виды и описание разных 
+				параметров находятся в разделе “Параметры способностей”.</p>
+				</div>
+        </div>
+        
+        <div data-role="page" id="abilities_categories_page"> 
+	        <div data-role="header">
+                    <div id="title_bar" style="left: 0px; top: 0px">
+                        <center><a href="#main_page">
+                        <img id="logo" src="assets/img/site_logo.png"/></a><br />
+                        Основные правила и приложения</center>
+                    </div>
+                </div> 
+	        <div data-role="content">
+				<h3>Категории cпособностей</h3>
+				<p class="auto-style1">
+            	Категория способности является одним из определяющих элементов 
+				описания способности. Категория способности определяет условия 
+				ее применения, а также частоту применения.</p>
+				<p class="auto-style1">
+            	Все способности делятся на 4 категории. Ниже представлены 
+				свойства, которые присущие способностям той или иной категории.</p>
+				<p class="auto-style1">
+            	<strong>1) Обычные</strong></p>
+				<p class="auto-style1">
+            	В течение хода можно использовать неограниченный набо<br>
+				способностей из этой категории, пока на их применение хватает ОЖ 
+				но одну и ту же способность нельзя использовать количество раз 
+				боле указанного в ее описании. Использование обычных 
+				способностей никак не зависит от использования способностей 
+				других категорий этот ход.</p>
+				<p class="auto-style1">
+            	<strong>2) Специальные</strong></p>
+				<p class="auto-style1">
+            	В течение хода можно использовать две разные способности из этой 
+				категории. Персонаж не может использовать в один ход и 
+				специальные способности, и состояния (см. ниже). Также 
+				специальные способности отличаются тем, что они могут быть 
+				использованы только раз в 3 хода персонажа (то есть по истечению 
+				3х раундов). Для отображения перезарадки способностей 
+				используйте специальные элементы для игры (см. в приложении 
+				“Игровые элементы”- В3, В4, В5).</p>
+				<p class="auto-style1">
+            	<strong>3) Состояния</strong></p>
+				<p class="auto-style1">
+            	В течение хода можно использовать только одно состояние и только 
+				раз в этот ход. Персонаж не может использовать в один ход и 
+				специальные способности, и состояния. Состояние действует весь 
+				следующий раунд после хода персонажа, и соответственно 
+				становится доступным для использования в следующий ход.</p>
+				<p class="auto-style1">
+            	<strong>4) Пассивные способности</strong></p>
+				<p class="auto-style1">
+            	Способности данной категории используются постоянно и не требуют 
+				затрат ОЖ на свое использование/поддержание. Пассивные 
+				способности нельзя прекратить или прервать.</p>
+				</div>
+        </div>
+
 
 	</body>
 </html>

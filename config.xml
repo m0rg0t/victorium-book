@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.m0rg0t.victorium.book"
-	version 	= "1.0.0">
+	version 	= "0.7.1">
 
 	<name>Victorium book</name>
 
@@ -10,7 +10,7 @@
 		Victorium book
 	</description>
 
-	<author href="http://m0rg0t.blogspot.com"
+	<author href="http://m0rg0t.ru"
 		email="m0rg0t.Anton@gmail.com">
 		Lenev Anton
 	</author>
@@ -23,6 +23,7 @@
 	</gap:platforms>
 
 	<icon src="icon.png" gap:role="default" />
+	<gap:splash src="splash.png" />
 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>

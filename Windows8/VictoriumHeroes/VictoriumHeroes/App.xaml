@@ -1,0 +1,24 @@
+﻿<Application
+    x:Class="VictoriumHeroes.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VictoriumHeroes"
+    xmlns:localData="using:VictoriumHeroes.Data">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- 
+                    Стили, определяющие общие особенности внешнего вида и функциональности платформы
+                    Требуются для шаблонов элементов и проекта Visual Studio
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Ресурсы, зависящие от приложения -->
+
+            <x:String x:Key="AppName">VictoriumHeroes</x:String>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

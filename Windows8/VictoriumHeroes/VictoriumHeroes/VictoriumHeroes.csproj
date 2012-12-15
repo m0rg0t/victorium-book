@@ -12,7 +12,9 @@
     <DefaultLanguage>ru-RU</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>VictoriumHeroes_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>VictoriumHeroes_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>87F2B17186C18ED9502213C6BA9AC82B52A086E7</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -132,9 +134,26 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Common\ReadMe.txt" />
+    <None Include="VictoriumHeroes_StoreKey.pfx" />
     <None Include="VictoriumHeroes_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\beg1.png" />
+    <Content Include="Assets\brone_snariad1.png" />
+    <Content Include="Assets\dimovaia_zavesa1.png" />
+    <Content Include="Assets\dvizenie1.png" />
+    <Content Include="Assets\molnia1.png" />
+    <Content Include="Assets\pilot1.png" />
+    <Content Include="Assets\pochinka1.png" />
+    <Content Include="Assets\polomka1.png" />
+    <Content Include="Assets\raspredelenie_mosnosti1.png" />
+    <Content Include="Assets\remont1.png" />
+    <Content Include="Assets\trenirovka1.png" />
+    <Content Include="Assets\udar2.png" />
+    <Content Include="Assets\udar_v_prizke1.png" />
+    <Content Include="Assets\vistrel1.png" />
+    <Content Include="Assets\zarina1.png" />
+    <None Include="Package.StoreAssociation.xml" />
     <Page Include="About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -145,21 +164,46 @@
     </Page>
     <Content Include="Assets\answer_shoot1.png" />
     <Content Include="Assets\best_shelter1.png" />
+    <Content Include="Assets\bistraia_pomosh1.png" />
+    <Content Include="Assets\bolevie_tochki1.png" />
     <Content Include="Assets\boris-radonezski.png" />
     <Content Include="Assets\claster_grenade1.png" />
+    <Content Include="Assets\dop_linzi1.png" />
+    <Content Include="Assets\ekstrenaia_pomosh1.png" />
+    <Content Include="Assets\elizaveta_boiarskaia.png" />
     <Content Include="Assets\ergei-ivolgin.png" />
     <Content Include="Assets\force1-br.png" />
     <Content Include="Assets\force2-br.png" />
     <Content Include="Assets\force3-br.png" />
+    <Content Include="Assets\gazovaia_bomba1.png" />
     <Content Include="Assets\hard-strike-br1.png" />
     <Content Include="Assets\header-black2.png" />
     <Content Include="Assets\header_bg1.png" />
+    <Content Include="Assets\krovopuskanie1.png" />
+    <Content Include="Assets\lechenie1.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\magnetic_bomb1.png" />
     <Content Include="Assets\modificated_body.png" />
+    <Content Include="Assets\napalm1.png" />
     <Content Include="Assets\ne_uidesh1.png" />
+    <Content Include="Assets\ob_snariad1.png" />
+    <Content Include="Assets\ocered1.png" />
+    <Content Include="Assets\peremeshenie1.png" />
+    <Content Include="Assets\pereviazka1.png" />
+    <Content Include="Assets\petr_boikov1.png" />
+    <Content Include="Assets\pinok1.png" />
+    <Content Include="Assets\podavlenie1.png" />
+    <Content Include="Assets\potok_plamini1.png" />
+    <Content Include="Assets\povorot1.png" />
+    <Content Include="Assets\pricelni_vistrel1.png" />
     <Content Include="Assets\protection-br.png" />
+    <Content Include="Assets\razriad1.png" />
+    <Content Include="Assets\reanimacia1.png" />
+    <Content Include="Assets\rivok1.png" />
+    <Content Include="Assets\shagatel1.png" />
     <Content Include="Assets\shoot1.png" />
+    <Content Include="Assets\shrapnel1.png" />
+    <Content Include="Assets\silni_udar1.png" />
     <Content Include="Assets\site_logo.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
@@ -169,7 +213,11 @@
     <Content Include="Assets\MediumGray.png" />
     <Content Include="Assets\DarkGray.png" />
     <Content Include="Assets\strkie-br1.png" />
+    <Content Include="Assets\sviatogor1.png" />
     <Content Include="Assets\targeting1.png" />
+    <Content Include="Assets\tezlo_generator1.png" />
+    <Content Include="Assets\udar1.png" />
+    <Content Include="Assets\vicelivanie1.png" />
     <Content Include="Assets\vihr-udarov-br.png" />
   </ItemGroup>
   <ItemGroup>

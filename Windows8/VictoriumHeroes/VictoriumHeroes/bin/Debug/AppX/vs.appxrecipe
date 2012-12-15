@@ -5,28 +5,88 @@
     <WindowsUser>m0rg0_000</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>B9B1CC0D063A60D6C281E8FCBDF9F8191B5D90C87761F9F32A3CA7F2F78B33D6</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>efc3843e-8177-4bd6-b3f9-7aa672db8451_1.0.0.0_neutral__82r7a9ytfvk9a</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>efc3843e-8177-4bd6-b3f9-7aa672db8451_82r7a9ytfvk9a!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>efc3843e-8177-4bd6-b3f9-7aa672db8451</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=m0rg0_000</RegisteredPackagePublisher>
+    <RegisteredManifestChecksum>0D860EA7DCC4233F306A91C911FD413424157A1F3ACF9ED8B0690CA25FE68328</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>43337m0rg0t.Victorium-_1.0.0.0_neutral__an4n55wjnzdp8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>43337m0rg0t.Victorium-_an4n55wjnzdp8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>43337m0rg0t.Victorium-</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=F7642D27-CCE9-4988-9BED-35B1F14EED65</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-15T19:08:26.975</Modified>
+      <Modified>2012-12-15T20:51:40.218</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\VictoriumHeroes.exe">
       <PackagePath>VictoriumHeroes.exe</PackagePath>
-      <Modified>2012-12-15T19:08:26.823</Modified>
+      <Modified>2012-12-15T20:51:40.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\VictoriumHeroes.pdb">
       <PackagePath>VictoriumHeroes.pdb</PackagePath>
-      <Modified>2012-12-15T19:08:26.792</Modified>
+      <Modified>2012-12-15T20:51:40.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\beg1.png">
+      <PackagePath>Assets\beg1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\brone_snariad1.png">
+      <PackagePath>Assets\brone_snariad1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\dimovaia_zavesa1.png">
+      <PackagePath>Assets\dimovaia_zavesa1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\dvizenie1.png">
+      <PackagePath>Assets\dvizenie1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\molnia1.png">
+      <PackagePath>Assets\molnia1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\pilot1.png">
+      <PackagePath>Assets\pilot1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\pochinka1.png">
+      <PackagePath>Assets\pochinka1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\polomka1.png">
+      <PackagePath>Assets\polomka1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\raspredelenie_mosnosti1.png">
+      <PackagePath>Assets\raspredelenie_mosnosti1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\remont1.png">
+      <PackagePath>Assets\remont1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\trenirovka1.png">
+      <PackagePath>Assets\trenirovka1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\udar2.png">
+      <PackagePath>Assets\udar2.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\udar_v_prizke1.png">
+      <PackagePath>Assets\udar_v_prizke1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\vistrel1.png">
+      <PackagePath>Assets\vistrel1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\zarina1.png">
+      <PackagePath>Assets\zarina1.png</PackagePath>
+      <Modified>2012-12-15T20:45:32.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\answer_shoot1.png">
       <PackagePath>Assets\answer_shoot1.png</PackagePath>
@@ -36,6 +96,14 @@
       <PackagePath>Assets\best_shelter1.png</PackagePath>
       <Modified>2012-12-15T18:12:04.957</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\bistraia_pomosh1.png">
+      <PackagePath>Assets\bistraia_pomosh1.png</PackagePath>
+      <Modified>2012-12-15T19:50:17.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\bolevie_tochki1.png">
+      <PackagePath>Assets\bolevie_tochki1.png</PackagePath>
+      <Modified>2012-12-15T19:28:40.175</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\boris-radonezski.png">
       <PackagePath>Assets\boris-radonezski.png</PackagePath>
       <Modified>2012-12-15T17:25:51.994</Modified>
@@ -43,6 +111,18 @@
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\claster_grenade1.png">
       <PackagePath>Assets\claster_grenade1.png</PackagePath>
       <Modified>2012-12-15T18:12:04.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\dop_linzi1.png">
+      <PackagePath>Assets\dop_linzi1.png</PackagePath>
+      <Modified>2012-12-15T19:50:17.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\ekstrenaia_pomosh1.png">
+      <PackagePath>Assets\ekstrenaia_pomosh1.png</PackagePath>
+      <Modified>2012-12-15T19:28:40.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\elizaveta_boiarskaia.png">
+      <PackagePath>Assets\elizaveta_boiarskaia.png</PackagePath>
+      <Modified>2012-12-15T19:50:18.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\ergei-ivolgin.png">
       <PackagePath>Assets\ergei-ivolgin.png</PackagePath>
@@ -60,6 +140,10 @@
       <PackagePath>Assets\force3-br.png</PackagePath>
       <Modified>2012-12-15T17:43:34.652</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\gazovaia_bomba1.png">
+      <PackagePath>Assets\gazovaia_bomba1.png</PackagePath>
+      <Modified>2012-12-15T19:28:40.179</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\hard-strike-br1.png">
       <PackagePath>Assets\hard-strike-br1.png</PackagePath>
       <Modified>2012-12-15T17:30:35.503</Modified>
@@ -71,6 +155,14 @@
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\header_bg1.png">
       <PackagePath>Assets\header_bg1.png</PackagePath>
       <Modified>2012-12-15T19:05:37.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\krovopuskanie1.png">
+      <PackagePath>Assets\krovopuskanie1.png</PackagePath>
+      <Modified>2012-12-15T19:28:40.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\lechenie1.png">
+      <PackagePath>Assets\lechenie1.png</PackagePath>
+      <Modified>2012-12-15T19:28:40.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -85,17 +177,85 @@
       <PackagePath>Assets\modificated_body.png</PackagePath>
       <Modified>2012-12-15T18:12:04.952</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\napalm1.png">
+      <PackagePath>Assets\napalm1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.945</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\ne_uidesh1.png">
       <PackagePath>Assets\ne_uidesh1.png</PackagePath>
       <Modified>2012-12-15T17:47:28.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\ob_snariad1.png">
+      <PackagePath>Assets\ob_snariad1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\ocered1.png">
+      <PackagePath>Assets\ocered1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\peremeshenie1.png">
+      <PackagePath>Assets\peremeshenie1.png</PackagePath>
+      <Modified>2012-12-15T19:50:18.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\pereviazka1.png">
+      <PackagePath>Assets\pereviazka1.png</PackagePath>
+      <Modified>2012-12-15T19:50:17.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\petr_boikov1.png">
+      <PackagePath>Assets\petr_boikov1.png</PackagePath>
+      <Modified>2012-12-15T19:29:00.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\pinok1.png">
+      <PackagePath>Assets\pinok1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\podavlenie1.png">
+      <PackagePath>Assets\podavlenie1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\potok_plamini1.png">
+      <PackagePath>Assets\potok_plamini1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\povorot1.png">
+      <PackagePath>Assets\povorot1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\pricelni_vistrel1.png">
+      <PackagePath>Assets\pricelni_vistrel1.png</PackagePath>
+      <Modified>2012-12-15T19:50:17.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\protection-br.png">
       <PackagePath>Assets\protection-br.png</PackagePath>
       <Modified>2012-12-15T17:47:28.149</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\razriad1.png">
+      <PackagePath>Assets\razriad1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\reanimacia1.png">
+      <PackagePath>Assets\reanimacia1.png</PackagePath>
+      <Modified>2012-12-15T19:28:40.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\rivok1.png">
+      <PackagePath>Assets\rivok1.png</PackagePath>
+      <Modified>2012-12-15T19:28:53.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\shagatel1.png">
+      <PackagePath>Assets\shagatel1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.964</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\shoot1.png">
       <PackagePath>Assets\shoot1.png</PackagePath>
       <Modified>2012-12-15T18:12:04.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\shrapnel1.png">
+      <PackagePath>Assets\shrapnel1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\silni_udar1.png">
+      <PackagePath>Assets\silni_udar1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\site_logo.png">
       <PackagePath>Assets\site_logo.png</PackagePath>
@@ -136,9 +296,25 @@
       <PackagePath>Assets\strkie-br1.png</PackagePath>
       <Modified>2012-12-15T17:25:51.998</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\sviatogor1.png">
+      <PackagePath>Assets\sviatogor1.png</PackagePath>
+      <Modified>2012-12-15T20:12:41.925</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\targeting1.png">
       <PackagePath>Assets\targeting1.png</PackagePath>
       <Modified>2012-12-15T18:12:04.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\tezlo_generator1.png">
+      <PackagePath>Assets\tezlo_generator1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\udar1.png">
+      <PackagePath>Assets\udar1.png</PackagePath>
+      <Modified>2012-12-15T20:24:19.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\vicelivanie1.png">
+      <PackagePath>Assets\vicelivanie1.png</PackagePath>
+      <Modified>2012-12-15T19:50:17.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\vihr-udarov-br.png">
       <PackagePath>Assets\vihr-udarov-br.png</PackagePath>
@@ -170,7 +346,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-15T19:08:26.902</Modified>
+      <Modified>2012-12-15T20:51:40.134</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

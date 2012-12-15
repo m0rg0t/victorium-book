@@ -1,0 +1,1 @@
+C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\VictoriumHeroes.csproj;x64

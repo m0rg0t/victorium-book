@@ -46,6 +46,12 @@
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\hard-strike-br1.png">
       <PackagePath>Assets\hard-strike-br1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\header-black2.png">
+      <PackagePath>Assets\header-black2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\header_bg1.png">
+      <PackagePath>Assets\header_bg1.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -64,6 +70,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\shoot1.png">
       <PackagePath>Assets\shoot1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\site_logo.png">
+      <PackagePath>Assets\site_logo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>

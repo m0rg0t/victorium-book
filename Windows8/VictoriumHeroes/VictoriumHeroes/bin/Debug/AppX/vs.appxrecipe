@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-15T18:15:50.197</Modified>
+      <Modified>2012-12-15T19:08:26.975</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\VictoriumHeroes.exe">
       <PackagePath>VictoriumHeroes.exe</PackagePath>
-      <Modified>2012-12-15T18:19:56.478</Modified>
+      <Modified>2012-12-15T19:08:26.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\VictoriumHeroes.pdb">
       <PackagePath>VictoriumHeroes.pdb</PackagePath>
-      <Modified>2012-12-15T18:19:56.446</Modified>
+      <Modified>2012-12-15T19:08:26.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\answer_shoot1.png">
       <PackagePath>Assets\answer_shoot1.png</PackagePath>
@@ -64,10 +64,18 @@
       <PackagePath>Assets\hard-strike-br1.png</PackagePath>
       <Modified>2012-12-15T17:30:35.503</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\header-black2.png">
+      <PackagePath>Assets\header-black2.png</PackagePath>
+      <Modified>2012-12-15T18:59:29.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\header_bg1.png">
+      <PackagePath>Assets\header_bg1.png</PackagePath>
+      <Modified>2012-12-15T19:05:37.976</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T19:29:52.000</Modified>
+      <Modified>2012-12-15T19:10:26.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\magnetic_bomb1.png">
       <PackagePath>Assets\magnetic_bomb1.png</PackagePath>
@@ -89,15 +97,19 @@
       <PackagePath>Assets\shoot1.png</PackagePath>
       <Modified>2012-12-15T18:12:04.954</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\site_logo.png">
+      <PackagePath>Assets\site_logo.png</PackagePath>
+      <Modified>2012-12-15T18:57:05.514</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T19:29:52.000</Modified>
+      <Modified>2012-12-15T19:11:23.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T19:29:52.000</Modified>
+      <Modified>2012-12-15T19:10:38.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\stimulator1.png">
       <PackagePath>Assets\stimulator1.png</PackagePath>
@@ -106,7 +118,7 @@
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T19:29:52.000</Modified>
+      <Modified>2012-12-15T19:11:12.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
@@ -150,7 +162,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\ItemsPage.xaml">
       <PackagePath>ItemsPage.xaml</PackagePath>
-      <Modified>2012-12-15T17:40:49.373</Modified>
+      <Modified>2012-12-15T19:08:03.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\SplitPage.xaml">
       <PackagePath>SplitPage.xaml</PackagePath>
@@ -158,7 +170,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\victorium-book\Windows8\VictoriumHeroes\VictoriumHeroes\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-15T18:15:50.128</Modified>
+      <Modified>2012-12-15T19:08:26.902</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

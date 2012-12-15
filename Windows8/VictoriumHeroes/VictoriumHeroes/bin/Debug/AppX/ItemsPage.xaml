@@ -26,8 +26,11 @@
         * Строка 1 содержит оставшуюся часть страницы
     -->
     <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/header_bg1.png" Stretch="None" AlignmentX="Left" AlignmentY="Top"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="140"/>
+            <RowDefinition Height="130"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
@@ -70,7 +73,8 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:ConnectionId='3' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Victorium - персонажи Русский Империи" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
+            <Image Source="Assets/site_logo.png" Stretch="None" Margin="120,20,0,0"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text=" персонажи Русский Империи" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
 
         <VisualStateManager.VisualStateGroups>

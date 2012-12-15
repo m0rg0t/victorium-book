@@ -152,12 +152,15 @@
     <Content Include="Assets\force2-br.png" />
     <Content Include="Assets\force3-br.png" />
     <Content Include="Assets\hard-strike-br1.png" />
+    <Content Include="Assets\header-black2.png" />
+    <Content Include="Assets\header_bg1.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\magnetic_bomb1.png" />
     <Content Include="Assets\modificated_body.png" />
     <Content Include="Assets\ne_uidesh1.png" />
     <Content Include="Assets\protection-br.png" />
     <Content Include="Assets\shoot1.png" />
+    <Content Include="Assets\site_logo.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\stimulator1.png" />

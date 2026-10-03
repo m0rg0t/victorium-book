@@ -54,3 +54,26 @@ test('preserves available PhoneGap networking with synthetic responses', () => {
 test('a partial native API without NetworkStatus does not prevent startup', () => {
   assert.equal(start({ network: { isReachable(_host, callback) { callback(0); } } }).length, 4);
 });
+
+const dsl = await readFile(new URL('../assets/js/dsl.js', import.meta.url), 'utf8');
+
+test('controller registration tolerates template buttons absent from the book', () => {
+  vm.runInNewContext(dsl + '; when("#missing");', {
+    Lawnchair: function () {},
+    x$: () => ({ 0: null, on() { throw new Error('Cannot bind a missing button'); } }),
+  });
+});
+
+test('existing controller buttons retain their touch callback and receiver', () => {
+  const receiver = {};
+  let listener;
+  const context = {
+    Lawnchair: function () {},
+    callback() { assert.equal(this, receiver); },
+    x$: selector => selector === '#present_button'
+      ? { 0: receiver, on(event, callback) { assert.equal(event, 'touchstart'); listener = callback; } }
+      : [],
+  };
+  vm.runInNewContext(dsl + '; when("#present", callback);', context);
+  assert.equal(listener.call(receiver), false);
+});

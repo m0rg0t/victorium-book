@@ -70,7 +70,7 @@
         // display
         test("display shows the welcome dom element", function(){
             display('#welcome'); 
-            x$('#welcome_button').click(); // fake click
+            x$('#welcome_button').fire('touchstart'); // match the registered input event
             equals(x$('#welcome')[0].style.display, 'block')
         });
         
@@ -81,7 +81,7 @@
                 start();
                 ok(true);
             });
-            x$('#map_button').click(); // fake a click
+            x$('#map_button').fire('touchstart'); // match the registered input event
         });
         
         // ui

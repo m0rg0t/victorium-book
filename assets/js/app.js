@@ -4,16 +4,17 @@
 run(function () {
     // immediately invoked on first run
     var init = (function () {
-        navigator.network.isReachable("google.com", function(status) {
-			var connectivity = (status.internetConnectionStatus || status.code || status);
-        	if (connectivity === NetworkStatus.NOT_REACHABLE) {
-        		//alert("No internet connection - we won't be able to show you any maps");
-        	} else {
-        		//alert("We can reach Google - get ready for some awesome maps!");
-        	}
-        });
+        if (navigator.network && typeof navigator.network.isReachable === "function") {
+            navigator.network.isReachable("google.com", function(status) {
+                var connectivity = (status.internetConnectionStatus || status.code || status);
+                if (typeof NetworkStatus !== "undefined" && connectivity === NetworkStatus.NOT_REACHABLE) {
+                    // Offline reading remains available.
+                    return;
+                }
+            });
+        }
     })();
-    
+
     // a little inline controller
     when('#welcome');
     when('#settings', function() {

@@ -1,0 +1,13 @@
+{
+  "name": "victorium-book-maintenance",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "check": "npm test && npm run test:browser"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
